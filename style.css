@@ -1,0 +1,29 @@
+.heading{
+    font-size: 40px;
+    font-family: 'DynaPuff', cursive;
+    border-radius: 25px;
+    width: 60%;
+    height: 70px;
+}
+.clickButton{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    font-family: 'DynaPuff', cursive;
+    font-size: 20px;
+    margin-top: 450px;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+}
+@keyframes example{
+    from{
+        box-shadow: 2px 2px 30px rgb(123, 123, 255);
+    } to{
+        box-shadow: 2px 2px 30px rgb(255, 174, 174);
+    }
+
+}
